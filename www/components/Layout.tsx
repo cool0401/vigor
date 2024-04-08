@@ -1,12 +1,14 @@
 import Nav from "./Nav";
+import Footer from "../components/Footer";
 
 const Layout = ({children}): React.ReactElement => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Nav />
-      <div className="w-full">
+      <main className="w-full flex-1">
         {children}
-      </div>
+      </main>
+      <Footer />
     </div>
   )
 }

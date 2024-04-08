@@ -12,6 +12,9 @@ module.exports = {
         'second-color': '#05090a',
         'emerald-750': '#37bb65',
       },
+      borderWidth: {
+        '1': '1px',
+      }
     },
   },
   variants: {},

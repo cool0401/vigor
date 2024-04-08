@@ -3,8 +3,7 @@ import Image from 'next/image'
 
 const Footer = (): React.ReactElement => {
   return (
-    <div className="bg-black p-20 mx-auto flex flex-col items-center">
-        
+    <div className="w-full bg-black p-20 mx-auto flex flex-col items-center">
         <Image
             src="/images/logo.png"
             width={300}
