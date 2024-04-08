@@ -4,7 +4,7 @@ const Layout = ({children}): React.ReactElement => {
   return (
     <div>
       <Nav />
-      <div className="max-w-md mx-auto">
+      <div className="w-full">
         {children}
       </div>
     </div>

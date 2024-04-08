@@ -6,7 +6,13 @@ module.exports = {
     './pages/**/*.jsx',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary-color': '#0bd156',
+        'second-color': '#05090a',
+        'emerald-750': '#37bb65',
+      },
+    },
   },
   variants: {},
   plugins: [],

@@ -1,9 +1,10 @@
 import Layout from "../components/Layout";
+import Home from "../components/Home";
 
 const HomePage = (): React.ReactElement => {
   return (
     <Layout>
-      <h1 className="text-xl pt-3 pb-5">Welcome to the app</h1>
+      <Home/>
     </Layout>
   )
 }
