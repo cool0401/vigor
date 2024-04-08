@@ -4,6 +4,8 @@ import Router from "next/router";
 import Layout from "../components/Layout";
 import { useAuth } from "../auth";
 import Image from 'next/image'
+import NextAuth from 'next-auth';
+import FacebookProvider from 'next-auth/providers/facebook';
 
 const loginApi = async (username: string, password: string): Promise<void> => {
   const resp = await fetch("/api/login", {
